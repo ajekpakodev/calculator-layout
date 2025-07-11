@@ -1,46 +1,45 @@
 <!doctype html>
-<html>
+<html lang="en">
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
       
-      <link href="style.css" rel="stylesheet">
-   
+      <link rel="stylesheet" href="style.css">
+      
       <title>Calculator Layout</title>
    </head>
    <body>
       <main>
-         <article class="calculator-wrapper">
-            <section class="display-wrapper">
-               <p id="calculation">150÷3</p>
-               <p id="result">50</p>
-            </section>
-            <section class="buttons-wrapper">
-               <button class="clr-gray">mc</button>
-               <button class="clr-gray">m+</button>
-               <button class="clr-gray">m-</button>
-               <button class="clr-gray">mr</button>
-               <button class="clr-blue">c</button>
-               <button class="clr-blue">÷</button>
-               <button class="clr-blue">×</button>
-               <button class="clr-blue">d</button>
-               <button class="num">7</button>
-               <button class="num">8</button>
-               <button class="num">9</button>
-               <button class="clr-blue">-</button>
-               <button class="num">4</button>
-               <button class="num">5</button>
-               <button class="num">6</button>
-               <button class="clr-blue">+</button>
-               <button class="num">3</button>
-               <button class="num">2</button>
-               <button class="num">1</button>
-               <button class="num">%</button>
-               <button class="num">0</button>
-               <button class="num">.</button>
-               <button class="row-span-2 bg-blue">=</button>
-            </section>
-         </article>
+         <section class="display">
+            <div>150÷3</div>
+            <div>50</div>
+         </section>
+         
+         <section class="buttons-wrapper">
+            <button class="clr-gray">mc</button>
+            <button class="clr-gray">m+</button>
+            <button class="clr-gray">m-</button>
+            <button class="clr-gray">mr</button>
+            <button class="clr-blue">c</button>
+            <button class="clr-blue">÷</button>
+            <button class="clr-blue">×</button>
+            <button class="clr-blue">delete</button>
+            <button class="bg-clr-white">7</button>
+            <button class="bg-clr-white">8</button>
+            <button class="bg-clr-white">9</button>
+            <button class="clr-blue">-</button>
+            <button class="bg-clr-white">4</button>
+            <button class="bg-clr-white">5</button>
+            <button class="bg-clr-white">6</button>
+            <button class="clr-blue">+</button>
+            <button class="bg-clr-white">1</button>
+            <button class="bg-clr-white">2</button>
+            <button class="bg-clr-white">3</button>
+            <button class="span-2-row bg-clr-blue">=</button>
+            <button class="bg-clr-white">%</button>
+            <button class="bg-clr-white">0</button>
+            <button class="bg-clr-white">.</button>
+         </section>
       </main>
    </body>
 </html>
