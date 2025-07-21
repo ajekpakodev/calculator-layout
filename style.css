@@ -17,6 +17,7 @@ body {
    background-color:var(--clr--dodgerblue);
    display:grid;
    font-size:1.6rem;
+   min-height:100vh;
 }
 
 main {
@@ -79,6 +80,7 @@ button {
 .span-2-row { grid-row: span 2; }
 
 
+/* MOBILE */
 @media (max-width:35rem) {
    main {
       border-radius:0;
